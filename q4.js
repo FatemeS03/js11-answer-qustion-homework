@@ -9,7 +9,12 @@ const obj2 = {
 };
 
 //  !   Answer:
-let{id,age,username,skills}=obj2
-age=20
-skills=['python', 'css', 'js']
-console.log(age,skills)
+obj2.age= 20
+obj2.skills=['python', 'css', 'js']
+console.log(obj2.age,obj2.skills)
+
+
+// let{id,age,username,skills}=obj2
+// age=20
+// skills=['python', 'css', 'js']
+// console.log(age,skills)
